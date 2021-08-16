@@ -1,13 +1,86 @@
-<!-- 
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the brand name to the left and all the navigation to the right.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Use flexbox properties and values to create columns.
- -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Flex-box assignment</title>
+        <link rel="stylesheet" href="assets/stylesheet/style.css">
+    </head>
+    <body>
+        <header id="top" class="header">
+            <div class="container">
+                <div class="logo-container">
+                    <img class="logo" src="assets/media/logo.png" alt="logo">
+                </div>
+                <div class="nav-container">
+                    <a class="nav-a" href="#About">About</a>
+                    <a class="nav-a" href="#service">Service</a>
+                    <a class="nav-a" href="#Contact">Contact</a>
+                    <a class="nav-a" href="#Home">Home</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <article class="col">
+                            <h1>This is heading of the paragraph</h1>
+                            <p class="hero-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ratione ducimus accusamus possimus
+                                provident accusantium veritatis doloribus sint pariatur animi esse quae tempora asperiores ipsum assumenda 
+                                necessitatibus omnis, nisi aut.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ratione ducimus accusamus possimus
+                                provident accusantium veritatis doloribus sint pariatur animi esse quae tempora asperiores ipsum assumenda 
+                                necessitatibus omnis, nisi aut.
+                            </p>
+                            <p class="hero-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ratione ducimus accusamus possimus
+                                provident accusantium veritatis doloribus sint pariatur animi esse quae tempora asperiores ipsum assumenda 
+                                necessitatibus omnis, nisi aut.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ratione ducimus accusamus possimus
+                                provident accusantium veritatis doloribus sint pariatur animi esse quae tempora asperiores ipsum assumenda 
+                                necessitatibus omnis, nisi aut.
+                            </p>
+                    </article>
+                    <article class="col">
+                            <img class="hero-img" src="assets/media/company.jpeg" alt="">
+                    </article>
+                </div>
+            </section>
+            <section>>
+                <div class="container gallery">
+                        <div class="col-bottom">
+                            <img src="assets/media/pic1.jpeg" alt="company image">
+                        </div>
+                        <div class="col-bottom">
+                            <img src="assets/media/pic2.jpeg" alt="company image">
+                        </div>
+                        <div class="col-bottom">
+                            <img src="assets/media/pic3.jpeg" alt="company image">
+                        </div>
+                </div>
+                <div class="container gallery">
+                        <div class="col-bottom">
+                            <img src="assets/media/pic4.jpeg" alt="company image">
+                        </div>
+                        <div class="col-bottom">
+                            <img src="assets/media/pic5.jpeg" alt="company image">
+                        </div>
+                        <div class="col-bottom">
+                            <img src="assets/media/pic6.jpeg" alt="company image">
+                        </div>                       
+                </div>
+            </section>
+            <footer>
+                <div class="container bottom">
+                    <a href="#top">go to Top</a>
+                    <div class="nav-container">
+                        <a class="nav-a" href="#About">About</a>
+                        <a class="nav-a" href="#service">Service</a>
+                        <a class="nav-a" href="#Contact">Contact</a>
+                        <a class="nav-a" href="#Home">Home</a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
