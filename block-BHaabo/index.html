@@ -6,3 +6,96 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Flex-box Assignment-2</title>
+        <!-- font family-->
+        <link 
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap"
+        rel="stylesheet"
+        />
+        <!-- script -->
+        <script
+        src="https://kit.fontawesome.com/8bc5acd820.js"
+        crossorigin="anonymous"
+        ></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/stylesheet/style.css">
+    </head>
+    <header class="header">
+        <div class="container flex">
+            <img class="brand" src="assets/logo1.png" alt="logo">
+            <i class="flex">
+                <img src="assets/icons/bell.svg" alt="bell icon">
+                <p class="user-name">Sarah Jone</p>
+                <img src="assets/icons/user.svg" alt="user">
+            </i>
+        </div>
+    </header>
+    <body>
+        <main>
+            <section class="container direction">
+                <div class="col one last-icon">
+                    <div class="icons top">
+                        <div class="icon-holder">
+                            <i><img src="assets/icons/dashboard.svg" alt="dashboard"></i><p>Dashboard</p>
+                        </div>
+                        <div class="icon-holder border">
+                            <i><img src="assets/icons/article.svg" alt="article"></i><p>Article</p>
+                        </div>
+                        <div class="icon-holder">
+                            <i><img src="assets/icons/analytics.svg" alt="analisis"></i><p>Analisis</p>                        
+                        </div>
+                        <div class="icon-holder">
+                            <i><img src="assets/icons/inbox.svg" alt="inbox"></i><p>Index</p>
+                        </div>
+                        <div class="icon-holder">
+                            <i><img src="assets/icons/setting.svg" alt="setting"></i><p>Setting</p>
+                        </div>
+                    </div>
+                    <div class="icons-holder bottom">
+                        <i><img src="assets/icons/log-out.svg" alt="log-out"></i><p>Log Out</p>
+                    </div>
+                </div>
+                <div class="col two">
+                    <img class="hero-image" src="assets/01.png" alt="Do something">
+                    <h1 class="heading">This is heading of the paragaraph</h1>
+                    <p class="hero-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias ut error quia in! 
+                        Dolorem iusto ipsum voluptatum, neque, laudantium aliquam corrupti fugit pariatur illo dolore 
+                        dignissimos minima quis repellendus corporis ex ducimus nihil ut! Architecto qui, accusantium amet 
+                        corporis praesentium tempora beatae at voluptate. Voluptate numquam itaque quia officia!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias ut error quia in! 
+                    </p>
+                    <button class="hero-button">Read More</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container bottom-icon">
+                <div>
+                    <small>&copy  - Altcampus</small>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
