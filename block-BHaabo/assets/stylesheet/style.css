@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom style */
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* header */
+
+.header {
+    background-color: rgb(34,41,70);
+    padding: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand {
+    width: 150px;
+}
+.user-name {
+    color: white;
+    margin-left: 30px;
+}
+.flex img {
+    margin-left: 20px;
+}
+.col {
+    margin-top: 40px;
+    border-radius: 10px;
+    height: 70vh;
+    justify-content: space-between;
+}
+.one {
+    background-color: rgb(163,202,234);
+    padding: 20px;
+    width: 25%;
+}
+.direction {
+    display: flex;
+    justify-content: space-between;
+
+}
+.icon-holder {
+    display: flex;
+    padding: 20px;
+}
+.border {
+    border: 2px solid orange;
+    border-radius: 8px;
+}
+.icon-holder img {
+    margin-right: 10px;
+}
+.bottom img {
+    margin-right: 10px;
+}
+.bottom {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px 20px;
+}
+.last-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.two {
+    background-color: rgb(242,248,253);
+    width: 60%;
+    padding: 10px;
+}
+.hero-image {
+    width: 100%;
+}
+.heading {
+    font-size: 30px;
+    color: blue;
+    margin: 10px 0;
+}
+.hero-text {
+    font-size: 14px;
+}
+.hero-button {
+    background-color:rgb(55,182,103) ;
+    color: white;
+    font-size: 16px;
+    padding: 10px 50px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+footer {
+    background-color: rgb(34,41,70);
+    padding: 30px;
+    margin-top: 30px;
+}
+small {
+    color: white;
+    font-size: 18px;
+}
+.bottom-icon {
+    display: flex;
+    justify-content: space-between;
+
+}
+.bottom-icon a {
+    color: white;
+    margin-left: 20px;
+}
