@@ -3,84 +3,96 @@
     <head>
         <meta charset="UTF-8">
         <title>Flex-box assignment</title>
+
+        <!-- font famity -->
+        <link 
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" 
+        rel="stylesheet"
+        />
+
+        <!-- sript -->
+        <script
+        src="https://kit.fontawesome.com/8bc5acd820.js"
+        crossorigin="anonymous"
+        ></script>
+
+        <!-- css -->
         <link rel="stylesheet" href="assets/stylesheet/style.css">
     </head>
     <body>
         <header id="top" class="header">
-            <div class="container">
-                <div class="logo-container">
+            <div class="container flex">
+                <a class="brand" href="#logo">
                     <img class="logo" src="assets/media/logo.png" alt="logo">
-                </div>
-                <div class="nav-container">
+                </a>
+                <nav class="nav">
                     <a class="nav-a" href="#About">About</a>
                     <a class="nav-a" href="#service">Service</a>
                     <a class="nav-a" href="#Contact">Contact</a>
                     <a class="nav-a" href="#Home">Home</a>
-                </div>
+                </nav>
             </div>
         </header>
         <main>
-            <section>
-                <div class="container">
-                    <article class="col">
-                            <h1>This is heading of the paragraph</h1>
-                            <p class="hero-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ratione ducimus accusamus possimus
-                                provident accusantium veritatis doloribus sint pariatur animi esse quae tempora asperiores ipsum assumenda 
-                                necessitatibus omnis, nisi aut.
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ratione ducimus accusamus possimus
-                                provident accusantium veritatis doloribus sint pariatur animi esse quae tempora asperiores ipsum assumenda 
-                                necessitatibus omnis, nisi aut.
-                            </p>
-                            <p class="hero-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ratione ducimus accusamus possimus
-                                provident accusantium veritatis doloribus sint pariatur animi esse quae tempora asperiores ipsum assumenda 
-                                necessitatibus omnis, nisi aut.
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ratione ducimus accusamus possimus
-                                provident accusantium veritatis doloribus sint pariatur animi esse quae tempora asperiores ipsum assumenda 
-                                necessitatibus omnis, nisi aut.
-                            </p>
-                    </article>
-                    <article class="col">
-                            <img class="hero-img" src="assets/media/company.jpeg" alt="">
-                    </article>
-                </div>
+            <!-- Article-->
+            <section class="article-section">
+                <article class="container flex">
+                    <div class="col-1-2">
+                        <h1 class="article-heading">This is heading of the paragraph</h1>
+                        <p class="article-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ratione ducimus accusamus possimus
+                            provident accusantium veritatis doloribus sint pariatur animi esse quae tempora asperiores ipsum assumenda 
+                            necessitatibus omnis, nisi aut.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ratione ducimus accusamus possimus
+                            provident accusantium veritatis doloribus sint pariatur animi esse quae tempora asperiores ipsum assumenda 
+                            necessitatibus omnis, nisi aut.
+                        </p>
+                        <p class="article-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque,
+                        </p>
+                    </div>
+                    <div class="col-1-2">
+                        <img class="article-img" src="assets/media/company.jpeg" alt="">
+                    </div>
             </section>
-            <section>>
-                <div class="container gallery">
-                        <div class="col-bottom">
+            <!-- Gallery-->
+            <section class="gallery">
+                <div class="container">
+                    <h2 class="heading">Gallery</h2>
+                    <div class="flex">
+                        <div class="col-1-3">
                             <img src="assets/media/pic1.jpeg" alt="company image">
                         </div>
-                        <div class="col-bottom">
+                        <div class="col-1-3">
                             <img src="assets/media/pic2.jpeg" alt="company image">
                         </div>
-                        <div class="col-bottom">
+                        <div class="col-1-3">
                             <img src="assets/media/pic3.jpeg" alt="company image">
                         </div>
-                </div>
-                <div class="container gallery">
-                        <div class="col-bottom">
+                        <div class="col-1-3">
                             <img src="assets/media/pic4.jpeg" alt="company image">
                         </div>
-                        <div class="col-bottom">
+                        <div class="col-1-3">
                             <img src="assets/media/pic5.jpeg" alt="company image">
                         </div>
-                        <div class="col-bottom">
+                        <div class="col-1-3">
                             <img src="assets/media/pic6.jpeg" alt="company image">
-                        </div>                       
-                </div>
-            </section>
-            <footer>
-                <div class="container bottom">
-                    <a href="#top">go to Top</a>
-                    <div class="nav-container">
-                        <a class="nav-a" href="#About">About</a>
-                        <a class="nav-a" href="#service">Service</a>
-                        <a class="nav-a" href="#Contact">Contact</a>
-                        <a class="nav-a" href="#Home">Home</a>
+                        </div>
                     </div>
+            </section>
+            <footer class="footer">
+                <div class="container">
+                    <nav class="">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </nav>
                 </div>
             </footer>
+            <button class="button">
+                <a class="top-btn" href="#top">go to Top</a>
+            </button>
         </main>
     </body>
 </html>
